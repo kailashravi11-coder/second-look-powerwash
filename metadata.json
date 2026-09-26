@@ -1,0 +1,8 @@
+{
+  "name": "Second LOOK Power Wash - Houston, TX",
+  "description": "Houston's top-rated, owner-operated exterior pressure washing and softwashing by William (Willy). Specializing in safe house washing, driveways, brick & stone, patios, and fast HOA violation clearing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
