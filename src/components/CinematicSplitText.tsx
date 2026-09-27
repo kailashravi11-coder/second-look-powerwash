@@ -45,8 +45,8 @@ export const CinematicSplitText: React.FC<CinematicSplitTextProps> = ({
         {prefixWords.map((word, index) => (
           <motion.span
             key={`prefix-${word}-${index}`}
-            initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{
               ...springTransition,
               delay: delay + index * 0.08
@@ -63,8 +63,8 @@ export const CinematicSplitText: React.FC<CinematicSplitTextProps> = ({
           return (
             <motion.span
               key={`highlight-${word}-${index}`}
-              initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{
                 ...springTransition,
                 delay: delay + (totalPrefixLength + index) * 0.08
@@ -74,10 +74,11 @@ export const CinematicSplitText: React.FC<CinematicSplitTextProps> = ({
               <KineticText
                 text={word}
                 color={highlightColor}
-                minWeight={400}
+                minWeight={800}
                 maxWeight={900}
                 duration={2.4}
-                className="drop-shadow-[0_2px_14px_rgba(56,189,248,0.5)]"
+                autoAnimate={false}
+                className="drop-shadow-[0_2px_14px_rgba(56,189,248,0.5)] font-black"
               />
             </motion.span>
           );
@@ -87,8 +88,8 @@ export const CinematicSplitText: React.FC<CinematicSplitTextProps> = ({
       {/* Subtitle with delayed 0.3s staggered fade-in */}
       {subtitle && (
         <motion.p
-          initial={{ opacity: 0, y: 15, filter: "blur(4px)" }}
-          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.7,
             delay: delay + (prefixWords.length + highlightWords.length) * 0.08 + 0.3,

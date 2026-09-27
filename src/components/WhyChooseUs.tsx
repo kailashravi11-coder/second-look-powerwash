@@ -370,11 +370,6 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenEstimate }) => {
 
         {/* 3. THE HIDDEN COST OF "LOW BIDS" (Attention Section with High-Contrast Alert Card) */}
         <div className="bg-slate-900 rounded-3xl p-8 sm:p-12 lg:p-14 text-white shadow-2xl relative overflow-hidden mb-20 border border-slate-800">
-          
-          {/* Subtle Ambient Glow */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
-
           <div className="relative z-10 max-w-4xl mx-auto">
             
             {/* Attention Header */}
@@ -511,10 +506,6 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenEstimate }) => {
           className="bg-slate-900 rounded-3xl p-8 sm:p-12 lg:p-14 text-white text-center shadow-2xl border border-slate-800 relative overflow-hidden"
           style={{ backgroundColor: "#0f172a" }}
         >
-          {/* Subtle Ambient Glow matching Consumer Protection card */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none" />
-
           <div className="relative z-10 max-w-2xl mx-auto space-y-6">
             
             {/* Tagline */}

@@ -35,15 +35,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEstimate }) => {
           playsInline
           src="/videos/hero-video.mp4"
           poster="/images/hero_pressure_washing_action.jpg"
-          className="absolute inset-0 w-full h-full object-cover object-center z-0 opacity-85 filter brightness-[0.88] contrast-[1.05] transition-all duration-700"
+          className="absolute inset-0 w-full h-full object-cover object-center z-0 opacity-90"
         >
           <source src="/videos/hero-video.mp4" type="video/mp4" />
           <source src="/hero-video.mp4" type="video/mp4" />
         </video>
-
-        {/* Ambient Electric Cyan Glow Accents */}
-        <div className="absolute top-1/4 left-10 w-96 h-96 bg-cyan-500/15 rounded-full blur-3xl pointer-events-none animate-shimmer-subtle" />
-        <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-sky-500/15 rounded-full blur-3xl pointer-events-none animate-shimmer-subtle" />
 
         {/* Cinematic Scrims: Dark top/bottom gradients for contrast */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#050b14] via-transparent to-[#050b14]/75 z-10" />

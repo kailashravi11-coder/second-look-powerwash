@@ -115,10 +115,6 @@ export const LocalSeoFaqHub: React.FC<LocalSeoFaqHubProps> = ({ onOpenEstimate }
       id="houston-service-areas" 
       className="bg-slate-900 text-white py-20 lg:py-28 relative overflow-hidden border-t border-slate-800"
     >
-      {/* Background Lighting Accents */}
-      <div className="absolute top-0 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}

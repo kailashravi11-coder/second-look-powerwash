@@ -305,10 +305,6 @@ ACTION: Tap reply to email customer, or call ${data.leadPhone} to confirm proper
       {/* Anchor for external navigation */}
       <div id="lead-form" className="absolute -top-24" />
 
-      {/* Ambient background glow */}
-      <div className="absolute top-1/4 -right-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-10 -left-40 w-96 h-96 bg-sky-600/10 rounded-full blur-3xl pointer-events-none" />
-
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* Section Header */}

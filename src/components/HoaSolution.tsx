@@ -164,9 +164,6 @@ export const HoaSolution: React.FC<HoaSolutionProps> = ({ onOpenEstimate }) => {
         {/* Special Highlight: Before & After Photos for HOA Records with 3D CSS Perspective */}
         <CardContainer containerClassName="mb-16">
           <CardBody className="bg-slate-900 text-white rounded-3xl p-6 sm:p-10 lg:p-12 shadow-xl relative overflow-hidden">
-            {/* Subtle glow background */}
-            <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
               
               {/* Left Column: Context & HOA Relief */}

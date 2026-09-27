@@ -207,10 +207,6 @@ export const InteractiveShowcase: React.FC<InteractiveShowcaseProps> = ({
       className="bg-[#050b14] text-white py-20 lg:py-28 relative overflow-hidden border-t border-white/10"
       style={{ backgroundColor: "#050b14" }}
     >
-      {/* Ambient Lighting Gradients */}
-      <div className="absolute top-1/4 -left-48 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/3 -right-48 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}
